@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System;
-using PrototypePattern;
+﻿using PrototypePattern;
 
 Console.WriteLine("Original order:");
 var savedOrder = new FoodOrder("Tyler Miller", true, new[] { "Pizza", "Coke" }, new OrderInfo(2345));
